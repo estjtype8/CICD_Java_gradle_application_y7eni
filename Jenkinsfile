@@ -13,6 +13,7 @@ pipeline{
                             sh "chmod +x gradlew"
                             //sh "./gradlew sonarqube"
                             sh "./gradlew --warning-mode=all"
+                            sh "./gradlew --status"
                     }
                }
             }
