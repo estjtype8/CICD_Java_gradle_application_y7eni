@@ -6,7 +6,7 @@ plugins {
 	id 'org.sonarqube' version '3.3'
 }
 
-task wrapper(type: Wrapper) {
+task wrapper2(type: Wrapper) {
     gradleVersion = '8.1' 
 }
 
